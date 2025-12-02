@@ -7,6 +7,7 @@ pool:
   name: 'Annie'
 
 steps:
+  - checkout: self 
   - task: NodeTool@0
     inputs:
       versionSpec: '16.x'
